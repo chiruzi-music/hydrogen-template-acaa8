@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Chiruzi Music — Stream & Download</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">Chiruzi Music</div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Stream & Download the Latest Tracks</h1>
+      <p>Enjoy free streaming and downloads from Chiruzi Music</p>
+    </section>
+
+    <section class="posts">
+      <div class="post">
+        <img src="cover1.jpg" alt="Track cover">
+        <div class="post-content">
+          <h3>Track Title One</h3>
+          <p>By Artist Name</p>
+          <a href="music/track1.html">Listen / Download</a>
+        </div>
+      </div>
+
+      <div class="post">
+        <img src="cover2.jpg" alt="Track cover">
+        <div class="post-content">
+          <h3>Track Title Two</h3>
+          <p>By Artist Two</p>
+          <a href="music/track2.html">Listen / Download</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; <span id="year"></span> Chiruzi Music. All rights reserved.
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

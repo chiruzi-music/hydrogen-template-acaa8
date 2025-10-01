@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Track Title One — Chiruzi Music</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">Chiruzi Music</div>
+      <nav>
+        <a href="../index.html">Home</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="track-detail">
+      <img src="../cover1.jpg" alt="Track cover">
+      <h1>Track Title One</h1>
+      <p>By Artist Name</p>
+
+      <audio controls>
+        <source src="track1.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+
+      <p><a class="btn" href="track1.mp3" download>Download MP3</a></p>
+    </div>
+  </main>
+
+  <footer>
+    &copy; <span id="year2"></span> Chiruzi Music. All rights reserved.
+  </footer>
+
+  <script>
+    document.getElementById('year2').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
